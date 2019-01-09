@@ -34,7 +34,8 @@
 
 (3) 报告关于此数据集的一些描述性统计。包含至少一个集中趋势测量和至少一个变异测量。
 
-# 在这里执行你的分析
+### 在这里执行你的分析
+```python
 import  pandas as pd
 import matplotlib.pyplot as plt
 import scipy.stats as stats
@@ -42,6 +43,7 @@ df=pd.read_csv('/Users/zhaoguang/Downloads/stroopdata.csv')
 df.describe()
 #df_sample= df.sample(n=100, replace=True)
 #print(df_sample)
+```
 
 1.集中趋势测量(均值+中位数+众数)
 
